@@ -37,14 +37,60 @@ A full-stack blog management application with features for creating, editing, li
 - **DELETE /api/blogs/:id**: Delete a blog post by ID.
 - **POST /api/blogs/:id/like**: Like a blog post by ID.
 
+  ### Frontend
+
 - 1. Clone the repository:
 
    ```bash
    git clone https://github.com/YOUR_USERNAME/YOUR_REPOSITORY.git
 
 
--2.Navigate to the frontend directory:
+- 2. Navigate to the frontend directory:
 
    ```bash
   cd YOUR_REPOSITORY/frontend
+   
+- 3. Install dependencies:
+
+   ```bash
+   npm install
+
+- 4. Start the development server
+
+  ```bash
+  npm run dev
+
+The frontend will be available at http://localhost:5173.
+
+# Backend Setup
+
+1. **Navigate to the backend directory:**
+
+    ```bash
+    cd YOUR_REPOSITORY/backend
+    ```
+
+2. **Install dependencies:**
+
+    ```bash
+    npm install
+    ```
+
+3. **Create a `.env` file in the backend directory and add the necessary environment variables:**
+
+    ```env
+    MONGO_URI=your_mongodb_uri
+    JWT_SECRET=your_jwt_secret
+    JWT_EXPIRES_IN=30d
+    ```
+
+4. **Start the server:**
+
+    ```bash
+    npm start
+    ```
+
+The backend will be available at [http://localhost:3000](http://localhost:3000).
+
+  
 
