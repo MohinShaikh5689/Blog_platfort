@@ -41,3 +41,10 @@ A full-stack blog management application with features for creating, editing, li
 
    ```bash
    git clone https://github.com/YOUR_USERNAME/YOUR_REPOSITORY.git
+
+
+-2.Navigate to the frontend directory:
+
+   ```bash
+  cd YOUR_REPOSITORY/frontend
+
