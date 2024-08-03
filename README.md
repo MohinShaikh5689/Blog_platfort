@@ -35,7 +35,7 @@ A full-stack blog management application with features for creating, editing, li
 - **GET /api/blogs/:id**: Get a blog post by ID.
 - **PATCH /api/blogs/:id**: Update a blog post by ID.
 - **DELETE /api/blogs/:id**: Delete a blog post by ID.
-- **POST /api/blogs/:id/like**: Like a blog post by ID.
+- **POST /api/blogs/:id**: Like a blog post by ID.
 
   ### Frontend
 
