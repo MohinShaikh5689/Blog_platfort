@@ -1,0 +1,26 @@
+.home-container {
+    text-align: center;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px 20px;
+    background-color: #f8f9fa;
+  }
+  
+  .nav-links {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .nav-links a {
+    text-decoration: none;
+    color: #007bff;
+    font-weight: bold;
+  }
+  
+  .nav-links a:hover {
+    color: #0056b3;
+  }
+  
